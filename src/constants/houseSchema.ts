@@ -36,11 +36,11 @@ export const houseWalls: Wall[] = [
   // Add more walls as needed
 
   // third floor walls (only partial)
-  { start: [0, 0], end: [10, 0], height: 3, thickness: 0.2, baseHeight: 6 }, // Bottom wall
-  { start: [0, 0], end: [10, 0], height: 3, thickness: 0.2, baseHeight: 6 }, // Bottom wall
-  { start: [10, 0], end: [10, 8], height: 3, thickness: 0.2, baseHeight: 6 }, // Right wall
-  { start: [10, 8], end: [0, 8], height: 3, thickness: 0.2, baseHeight: 6 }, // Top wall
-  { start: [0, 8], end: [0, 0], height: 3, thickness: 0.2, baseHeight: 6 }, // Left wall
+  // { start: [0, 0], end: [10, 0], height: 3, thickness: 0.2, baseHeight: 6 }, // Bottom wall
+  // { start: [0, 0], end: [10, 0], height: 3, thickness: 0.2, baseHeight: 6 }, // Bottom wall
+  // { start: [10, 0], end: [10, 8], height: 3, thickness: 0.2, baseHeight: 6 }, // Right wall
+  // { start: [10, 8], end: [0, 8], height: 3, thickness: 0.2, baseHeight: 6 }, // Top wall
+  // { start: [0, 8], end: [0, 0], height: 3, thickness: 0.2, baseHeight: 6 }, // Left wall
 ];
 
 export const HouseSchema = {
