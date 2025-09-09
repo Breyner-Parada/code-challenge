@@ -112,6 +112,8 @@ const HouseModel: React.FC = () => {
         wireColor: "#ff0000",
         tubeColor: "#0000ff",
         thicknessTubes: 0.15,
+        heightRoof: HouseSchema.roof.height,
+        positionY: HouseSchema.roof.position[1],
       });
       setShowWalls(true);
     }),
